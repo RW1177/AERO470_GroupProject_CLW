@@ -36,7 +36,7 @@ class boid():
             vel3 = np.random.uniform(-6, 6)
             self.v = [vel1, vel2, vel3]
 
-        def Separate(self,pop_pos): # Boids need to locally separate from each other. Avoid determins avoidance safety factor
+        def Separate(self,pop_pos): # Boids need to locally separate from each other. Avoid determines avoidance safety factor
             closex = 0
             closey = 0
             closez = 0
